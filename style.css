@@ -1,0 +1,69 @@
+.parent{
+    display: grid;
+    width: 100%;
+    height: 500px;
+    gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows:auto auto auto auto;
+    
+}
+
+/* .parent>div:nth-child(odd){
+    background-color: aquamarine;
+}
+.parent>div:nth-child(even){
+    background-color: deepskyblue;
+} */
+
+.parent div{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.child1{
+    background-color: aquamarine;
+    grid-column: 1/4;
+    grid-row: 1/4;
+}
+
+.child2{
+    background-color: burlywood;
+    grid-row: -5/-3;    
+}
+
+.child3{
+    background-color: lightcoral;
+    grid-row: -3/-2;
+}
+.child4{
+    background-color: burlywood;
+    grid-row: 4/6;
+}
+.child5{    
+    background-color: aquamarine;
+    grid-column: 2/-1;
+    grid-row:4/7 ;
+}
+
+.child6{
+    background-color: lightcoral;
+    grid-row: 6/7;
+    
+}
+
+.child7{
+    background-color: aquamarine;
+    grid-column:1/4;
+    grid-row:7/10 ;
+}
+
+.child8{
+    background-color: burlywood;
+    grid-row: 7/9;
+}
+
+.child9{
+    background-color: lightcoral;
+}
+

@@ -1,0 +1,64 @@
+.parent{
+    display: grid;
+    gap: 10px;
+
+    grid-template-areas:
+    
+    "child1 child1 child1"
+    "child2 child3 child4"
+    "child5 child3 child6"
+    "child5 child7 child7"
+    "child8 child8 child8"
+    ;
+}
+
+.parent div{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.child1{
+    background-color: bisque;
+    grid-area: child1;
+    height: 100px;
+}
+
+.child2{
+    grid-area: child2;
+    background-color: aqua;
+    height: 100px;
+}
+.child3{
+    grid-area: child3;
+    background-color:cadetblue;
+    height: 210px;
+}
+.child4{
+    grid-area: child4;
+    background-color:rgb(222, 241, 125);
+    height: 100px;
+}
+
+.child5{
+    grid-area: child5;
+    background-color: burlywood;
+    height: 210px;
+}
+
+.child6{
+    grid-area: child6;
+    background-color: aquamarine;
+    height: 100px;
+}
+.child7{
+    grid-area: child7;
+    background-color: lightcoral;
+    height: 100px;
+}
+
+.child8{
+    grid-area: child8;
+    background-color:lightgray;
+    height: 100px;
+}
